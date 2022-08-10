@@ -50,17 +50,17 @@ npm i
 
 ### Product Requests
 - `GET`  /api/products - finds all products data in the database
-- `GET` /api/products - finds one product data by the given id
+- `GET` /api/products/:id - finds one product data by the given id
 - `POST` /api/products - creates a new product
-- `PUT` /api/products - updates a product by the given id
-- `DELETE` /api/products - delete a product by the given id
+- `PUT` /api/products/:id - updates a product by the given id
+- `DELETE` /api/products/:id - delete a product by the given id
 
 ### Tag Requests
 - `GET`  /api/tags - finds all tags data in the database
-- `GET` /api/tags - finds one tag data by the given id
+- `GET` /api/tags/:id - finds one tag data by the given id
 - `POST` /api/tags - creates a new tag
-- `PUT` /api/tags - updates a tag by the given id
-- `DELETE` /api/tags - delete a tag by the given id
+- `PUT` /api/tags/:id - updates a tag by the given id
+- `DELETE` /api/tags/:id - delete a tag by the given id
   
     
 ## Contribution
